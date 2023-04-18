@@ -18,7 +18,7 @@ app.get('/LivematchGame/endpoints', async (req, res) => {
   }
 });
 
-app.post('/LivematchGame/endpoints', async (req, res) => {
+app.post('/PrematchGame/endpoints', async (req, res) => {
   try {
     const startTime = performance.now();
     const contentLength = req.headers['content-length'] / 1024;
